@@ -1,0 +1,111 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container,
+.signup-container {
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-container h1,
+.signup-container h1 {
+    color: #1c9ff6;
+    margin-bottom: 20px;
+}
+
+.login-box,
+.signup-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.login-box h2,
+.signup-box h2 {
+    font-size: 20px;
+    color: #b0b0b0;
+    margin-bottom: 10px;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+button {
+    padding: 12px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #2e2e2e;
+    color: #ddd;
+}
+
+button {
+    background-color: #1c9ff6;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1580c8;
+}
+
+.forgotten-account,
+.signup-link,
+.login-link {
+    text-align: center;
+    display: block;
+    color: #1c9ff6;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgotten-account:hover,
+.signup-link:hover,
+.login-link:hover {
+    color: #1580c8;
+    text-decoration: underline;
+}
+
+.dob1 {
+    color: #b0b0b0;
+    text-align: left;
+    padding-left: 10px;
+    gap: 5px;
+}
+
+.gender {
+    gap: 5px;
+    color: #b0b0b0;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.gender input {
+    margin-right: 5px;
+}
+
+.signup-button {
+    background-color: #42b72a;
+}
+
+.signup-button:hover {
+    background-color: #36a420;
+}
